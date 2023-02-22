@@ -55,7 +55,7 @@ function ProductDetails() {
                       <img src={product.thumbnail} alt="no image found" className="d-block w-100" />
                     </div>
                     {
-                      product.images && product.images.map((item,index)=>{
+                      product.img && product.img.map((item,index)=>{
                         return(
                           <div className="carousel-item" key={index}>
                             <img src={item} alt=" no image found" className="d-block w-100" />
